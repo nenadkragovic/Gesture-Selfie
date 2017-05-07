@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gesture Selfie</title>
+	<link rel="stylesheet" type="text/css" href="Content/main.css">
+</head>
+<body>
+
+<div class="container">
+	<h2 class="text" data-bind="text: takeAPhoto"></h2>
+	<p class="timer" data-bind="text: timer"></p>
+	<div class="videoContainer">
+		<video id="video"></video>
+	</div>
+	<br>
+	<h2 class="text editText" data-bind="text: editText"></h2>
+	<br>
+	<canvas id="canvas"></canvas>
+</div>
+
+
+<script type="text/javascript" src="Scripts/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="Scripts/knockout.js"></script>
+<script type="text/javascript" src="Scripts/gest.min.js"></script>
+<script type="text/javascript" src="Scripts/photo.js"></script>
+</body>
+</html>
