@@ -43,7 +43,7 @@
 	    		}, 1000);
 	    		setTimeout(function(){
 	    			clearInterval(countDown);
-	    			context.drawImage(video, 0, 0, 320,150);
+	    			context.drawImage(video, 0, 0, 300,150);
 	    			$('html, body').animate({
 				        scrollTop: $("#canvas").offset().top
 				    }, 2000);
